@@ -1,4 +1,4 @@
-# Data Structures in C
+# Data Structures in Python
 
 ### What it does:
 
