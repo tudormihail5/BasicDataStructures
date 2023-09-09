@@ -10,6 +10,3 @@
 
 ### Challenges I ran into:
 
-
-
-![DataStructuresC](https://github.com/tudormihail5/DataStructuresC/blob/main/Screenshot.png)
