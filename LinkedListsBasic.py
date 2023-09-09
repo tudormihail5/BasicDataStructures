@@ -66,39 +66,3 @@ class LinkedList:
             self.head = current.next
         else:
             self.head = None
-
-
-def main():
-    LL = LinkedList()
-    LL.insert(3)
-    LL.insert(3)
-    LL.insert(10)
-    LL.insert(3)
-    LL.insert(4)
-    LL.insert(5)
-    LL.insert(6)
-    LL.insert(4)
-    LL.insert(7)
-    LL.printLL()
-    print()
-    #LL.insertMid(4)
-    #LL.printLL()
-    x = []
-    current = LL.head
-    while(current):
-        x.append(current.val)
-        current = current.next
-    x.sort()
-    sortedList = LinkedList()
-    for i in x:
-        sortedList.insert(i)
-    sortedList.printLL()
-    print()
-    current = LL.head
-    while(current.next):
-        current = current.next
-    current.next = sortedList.head
-    LL.printLL()
-
-
-main()
