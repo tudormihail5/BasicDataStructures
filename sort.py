@@ -44,21 +44,3 @@ def heapSort(List):
     for i in range(n - 1, 0, -1):
         (List[i], List[0]) = (List[0], List[i])
         heapify(List, i, 0)
-
-
-def main():
-    List1 = [3,1,8,5,2,6,1]
-    List2 = [3,1,8,5,2,6,1]
-    List3 = [3,1,8,5,2,6,1]
-    List4 = [3,1,8,5,2,6,1]
-    selectionSort(List1)
-    bubbleSort(List2)
-    insertionSort(List3)
-    heapSort(List4)
-    print(List1)
-    print(List2)
-    print(List3)
-    print(List4)
-
-
-main()
