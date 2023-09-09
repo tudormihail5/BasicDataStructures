@@ -21,14 +21,3 @@ def search2(l, x, low, high):
         else:
             high = mid - 1
     return -1
-
-
-def main():
-    l = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
-    a = search1(l, 8, 0, len(l) - 1)
-    b = search2(l, 8, 0, len(l) - 1)
-    print(a)
-    print(b)
-
-
-main() 
