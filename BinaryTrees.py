@@ -45,15 +45,3 @@ def postorder(root):
         postorder(root.left)
         postorder(root.right)
         print(root.val)
-
-def main():
-    root = Node(12)
-    insert(root, 6)
-    insert(root, 14)
-    insert(root, 8)
-    postorder(root)
-    a = [0,1,2,3,4,5]
-    print(a[3:])
-
-
-main()
