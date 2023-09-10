@@ -38,7 +38,12 @@ For each of them I created some helping functions:
 - preorder performs a preorder traversal of the BST; the current node is visited before its children; the order is root-left-right; it then prints the values of nodes in preorder.
 - In postorder, the children of the current node are visited before the node itself; the order is left-right-root.
 <!-- -->
-- 
+- sort has implementations of various sorting algorithms.
+- selectionSort works by repeatedly finding the minimum element from the usorted part of the list and moving it to the beginning; it iterates through the list and maintains a min_index variable to keep track of the index of the minimum element in the remaining unsorted part of the list; it swaps the element at the current index with the element at the min_index after each iteration.
+- bubbleSort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order; it continues this process until no swaps are required, indicating that the list is sorted.
+- insertionSort builds the final sorted list one item at a time; it starts with the second element in the list and compares it to the elements in the already sorted part of the list; it inserts the elements in its correct position within the sorted part of the list by shifting other elements to the right.
+- heapify takes a List, its length n, and an index i; it compares the element at index i with its left and right children (if they exist) and swaps the element with the largest child necessary; this function ensures that the max-heap property is maintained.
+- heapSort first builds a max heap from the elements in the list by repeatedly calling heapify; after building the max heap, it repeatedly extracts the maximum element (at the root) and places it at the end of the list.
 
 ### Challenges I ran into:
 
