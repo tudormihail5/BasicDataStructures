@@ -47,3 +47,4 @@ For each of them I created some helping functions:
 
 ### Challenges I ran into:
 
+It took me a while to properly understand how binary search trees work, and how to use recursive algorithms to traverse them, but it turned out to be quite easy.
