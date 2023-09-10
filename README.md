@@ -3,7 +3,7 @@
 ### What they do:
 
 **LinkedListsBasic:**<br/>
-It defines a simple linked list data structure and various methods to manipulate it, such as deleting or inserting nodes, and printing the list.<br />
+It defines a linked list data structure and various methods to manipulate it, such as deleting or inserting nodes, and printing the list.<br />
 
 **BinarySearch:**<br/>
 It defines two implementations of binary search algorithms used to search for a target element in a sorted list. The first is recursive, and the other is iterative.
