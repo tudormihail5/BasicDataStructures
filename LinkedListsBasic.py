@@ -24,18 +24,17 @@ class LinkedList:
             current = current.next
 
     def insertMid(self, val):
-        if(self.head):
+        newNode = Node(val)
+        if self.head:
             current = self.head
-            while(current.next != None):
+            while current.next:
                 if current.val == 3:
-                    newNode = Node(val)
-                    a = current.next
+                    newNode.next = current.next
                     current.next = newNode
-                    newNode.next = a
+                    break  # Inserted the new node, exit loop
                 current = current.next
         else:
             self.head = newNode
-
 
     def deleteLast(self):
         if(self.head):
